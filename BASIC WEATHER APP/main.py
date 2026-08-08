@@ -5,7 +5,7 @@ city = input("Enter city name: ").strip()
 if city == "":
     print("Error: City name cannot be empty.")
 else:
-    api_key = "YOUR_API_KEY"
+    api_key = "0f2125dd70993b7a721779524a85206e"
 
     url = f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
 
